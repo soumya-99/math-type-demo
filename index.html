@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>MathType Integration</title>
+    <script src="node_modules/@wiris/mathtype-generic/wirisplugin-generic.js"></script>
+    <script src="script.js" defer></script>
+    <style>
+        #toolbar {
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        #editorIcon {
+            height: 50px;
+            width: 50px;
+            border: 1px solid dodgerblue;
+            padding: 8px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+
+        #chemistryIcon {
+            height: 50px;
+            width: 50px;
+            border: 1px solid dodgerblue;
+            padding: 8px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2 style="text-align: center;">Math Type Demo</h2>
+    <div id="toolbar"></div>
+    <div id="htmlEditor" contenteditable="true" style="border: 1px solid grey; height: 50vh;">Try cliking the 1st icon!
+    </div>
+</body>
+
+</html>
